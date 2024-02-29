@@ -93,8 +93,8 @@ void startscreen()
 {
 glClear(GL_COLOR_BUFFER_BIT);
 glColor3f(1.0,1.0,1.0);
-output(2,38," CAN KURTTEKIN - 170401015 ");
-output(2,36," KADIRHAN CEKMEZ - 170401037 ");
+output(2,38," Snake ");
+output(2,36," glut ");
 output(4,30,"1. OYUN");
 output(4,28,"2. 3D OBJE");
 output(4,26,"3. CIKIS");
@@ -111,8 +111,8 @@ void instructions()
 	glVertex2f(60,37);
 	glEnd();
 	glColor3f(0,1,0);
-  output(8,30,"* CAN KURTTEKIN - 170401015 ");
-  output(8,28,"* KADIRHAN CEKMEZ - ");
+  output(8,30,"* xxx ");
+  output(8,28,"* xxx ");
   output(8,26,"* ");
   output(8,24,"* MENUYE DONMEK ICIN ESC'YE BAS");
    glFlush();
@@ -462,7 +462,7 @@ int main(int argc,char**argv)
     glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGB);//Initializing Display Mode
     glutInitWindowSize(glutGet(GLUT_SCREEN_WIDTH)/1.4,glutGet(GLUT_SCREEN_HEIGHT)/1.4);// opens window at max w,h
 
-    glutCreateWindow("Can Kurttekin & Kadirhan Cekmez");//Name of window
+    glutCreateWindow("Snake");//Name of window
 
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
     glEnable(GL_DEPTH_TEST);
